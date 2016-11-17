@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<title>响应式Blog</title>
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="pagewrap" class="clearfix">
+	<header id="header">
+		<hgroup>
+			<h1 id="site-logo">高旗展的Blog</h1>
+			<h3>Living without an aim is like sailing without a compass</h3>
+		</hgroup>	
+		
+	</header>
+	<nav id="main-nav">
+		<ul  class="clearfix">
+			<li><a href="#">pc端</a></li>
+			<li><a href="#">移动端</a></li>
+			<li><a href="#">响应式</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="#">HTML5</a></li>
+			<div class="search">
+				<input type="text" placeholder="前端我知道" />
+				<button type="button"><i class="icon icon-search"></i></button>
+			</div>
+		</ul>
+		
+	</nav>
+	<div id="content">
+
+		<section id="slider">
+		<button class="left"></button>
+        <button class="right" ></button>
+			<ul>
+				<li><img src="images/web1.jpg" /></li>
+				<li><img src="images/web2.jpg" /></li>
+				<li><img src="images/web3.jpg" /></li>
+				<li><img src="images/web4.PNG" /></li>
+				<li><img src="images/web1.jpg" /></li>
+				<li><img src="images/web2.jpg" /></li>
+				<li><img src="images/web3.jpg" /></li>
+				<li><img src="images/web4.PNG" /></li>
+				
+			</ul>
+		<ol>
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+		</section>
+
+		<section class="articles">
+			<article class="article">
+				<div class="img">
+					<img src="images/mainpic1.jpg" />
+					<div class="tips">
+						<div class="date">2016/9/18</div><i class="triangle"></i>
+					</div>
+					
+				</div>
+				<div class="title">响应式排版中的字体</div>
+				<div class="nums">
+					
+					<div class="rectangle">
+						<span><i class="icon icon-heart" title="喜欢"></i>(461)</span>
+						<span><i class="icon icon-share" title="分享"></i>(106)</span>
+						<span><i class="icon icon-comment" title="评论"></i>(15)</span>
+					</div>
+					<i class="trangleLB"></i>			
+				</div>
+				<i class="hr"></i>
+				<div class="desc">适应性布局：按步骤调整布局适应调整有限数量的屏幕尺寸。流体布局：不断的调整布局
+适应每一种可能的宽度。两种方式都有优势和劣势，我们相信布局适应很少的合理变化位置是我们要采用的方法，因为可读性比布局随时和窗口宽度来得重要...</div>
+
+			</article>
+			<article class="article">
+				<div class="img">
+					<img src="images/mainpic3.jpg" />
+					<div class="tips">
+						<div class="date">2016/8/21</div><i class="triangle"></i>
+					</div>
+					
+				</div>
+				<div class="title">常见浏览器兼容性问题与解决方案</div>
+				<div class="nums">
+					
+					<div class="rectangle">
+						<span><i class="icon icon-heart" title="喜欢"></i>(31)</span>
+						<span><i class="icon icon-share" title="分享"></i>(96)</span>
+						<span><i class="icon icon-comment" title="评论"></i>(64)</span>
+					</div>
+					<i class="trangleLB"></i>			
+				</div>
+				<i class="hr"></i>
+				<div class="desc">所谓的浏览器兼容性问题，是指因为不同的浏览器对同一段代码有不同的解析，造成页面显示效果不统一的情况。在大多数情况下，我们的需求是，无论用户用什么浏览器来查看我们的网站或者登陆我们的系统，都应该是统一的显示效果。所以浏览器的兼容性问题是前端开发人员经常会碰到和必须要解决的问题...</div>
+
+			</article>
+			<article class="article">
+				<div class="img">
+					<img src="images/mainpic4.jpg" style="top: 0;"/>
+					<div class="tips">
+						<div class="date">2016/8/18</div><i class="triangle"></i>
+					</div>
+					
+				</div>
+				<div class="title">web,移动web的区别</div>
+				<div class="nums">
+					
+					<div class="rectangle">
+						<span><i class="icon icon-heart" title="喜欢"></i>(602)</span>
+						<span><i class="icon icon-share" title="分享"></i>(241)</span>
+						<span><i class="icon icon-comment" title="评论"></i>(30)</span>
+					</div>
+					<i class="trangleLB"></i>			
+				</div>
+				<i class="hr"></i>
+				<div class="desc">移动web,pc端web，主要区别
+1.移动web需要在head里加上一句：meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no，申明页面为设备宽，不许缩放。
+2.移动web尽可能用百分比设置元素页面宽度，包括margin,padding属性也尽可能设置...</div>
+
+			</article>
+		</section>
+		
+	</div>
+
+	<aside id="sidebar">
+		<section class="widget">
+			<div class="title">前端随笔</div>
+			<ul class="folder">			
+				<li>移动web(11)</li>
+				<li>flex布局(30)</li>
+				<li>兼容性大全(9)</li>
+				<li>css那点事(16)</li>
+			</ul>
+		</section>
+		<section class="widget ">
+			<div class="title">picture</div>
+			<ul class="faces clearfix">		
+				<li><img src="images/g-1.jpg" ></li>
+				<li><img src="images/g-2.jpg" ></li>
+				<li><img src="images/g-3.jpg" ></li>
+				<li><img src="images/g-4.jpg" ></li>
+				<li><img src="images/g-5.JPG" ></li>
+				<li><img src="images/g-6.jpg" ></li>
+				<li><img src="images/g-7.jpg" ></li>
+				<li><img src="images/g-8.jpg"></li>
+				<li><img src="images/g-9.jpg" ></li>
+				<li><img src="images/g-10.jpg" ></li>
+				<li><img src="images/g-11.jpg" ></li>
+				<li><img src="images/g-12.jpg" ></li>
+				<li><img src="images/face04.jpg" ></li>
+				<li><img src="images/1234.PNG" ></li>
+				<li><img src="images/小黄蜂.jpg" ></li>
+			</ul>
+		</section>
+		<section class="widget">
+			<div class="title">留言板</div>
+			<ul class="comment">			
+				<li><img src="images/face16.jpg" >			
+					<p class="desc" title="那天我遇到个女孩，又在那天我能再遇到她...">
+						<span class="name">一勇</span>
+						<span>哥 我四级 又没过 怎么办啊？？？</span></p>
+				</li>
+				<li><img src="images/face02.jpg" >			
+					<p class="desc"><span class="name">想念</span><span>想我没？</span></p>
+				</li>
+				<li><img src="images/face10.jpg" >			
+					<p class="desc"><span class="name">怪蜀黍</span><span>谈谈人生，聊聊理想。</span></p>
+				</li>
+				
+			</ul>
+		</section>
+	</aside>
+
+	<footer id="footer">
+		<p>I am not afraid of tomorrow for I have seen yesterday and I love today</p>
+	</footer>
+
+</div>	
+</body>
+</html>
