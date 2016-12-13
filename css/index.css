@@ -463,9 +463,12 @@ a{
     		width: 60px;
     		text-indent: 5px;
     	}
-    	.search input, header h3, #main-nav li:nth-child(4), #main-nav li:nth-child(5), .nums span:nth-child(3){
+    	.search input, header h3, .nums span:nth-child(3){
     		display: none;
     	}
+	#content #slider{
+    		margin-top:35px;
+    	}   
     }
 
 
